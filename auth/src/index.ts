@@ -1,5 +1,6 @@
 import express from "express";
 import bodyParser from "body-parser";
+import { currentUserRouter } from "./routes/current-user"
 
 const app = express();
 app.use(bodyParser.json());
